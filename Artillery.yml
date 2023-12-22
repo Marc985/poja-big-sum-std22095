@@ -1,0 +1,10 @@
+config:
+  target: "https://s933iqg9r1.execute-api.eu-west-3.amazonaws.com"
+  phases:
+    - duration: 60
+      arrivalRate: 600
+
+scenarios:
+  - flow:
+      - get:
+          url: "/Prod/ping"
